@@ -147,7 +147,7 @@ header .navbar {
   z-index: 1;
 }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
     
   }
   
@@ -228,7 +228,7 @@ header .navbar {
   margin-right: 30px;
 }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
 
   }
   
@@ -251,7 +251,7 @@ header .navbar {
   background: rgb(252, 249, 249);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
 }
 
@@ -307,7 +307,7 @@ p {
 }
 
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1024px) {
 
   }
  .contact-section {
@@ -366,7 +366,7 @@ label {
 
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   
 }
 
@@ -416,7 +416,7 @@ label {
   transform: scale(1.50);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .bag-section .bag-list {
     gap: 60px;
   }
@@ -425,7 +425,7 @@ label {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
 body.show-mobile-menu header::before {
   content: "";
@@ -438,7 +438,7 @@ body.show-mobile-menu header::before {
   background: rgba(0, 0, 0, 0.2);
 }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
   .bag-section .bag-list {
     gap: 60px;
     
@@ -450,7 +450,7 @@ body.show-mobile-menu header::before {
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
 
 .navbar :where(#bag-close-button, #bag-open-button) {
@@ -502,11 +502,11 @@ body.show-mobile-menu header::before {
 .bag-section .bag-list .bag-item .bag-image {
   max-width: 200px;
  }
-
- @media screen and (max-width: 900px) {
+ @media screen and (max-width: 1024px) {
  
 
   aside, section,article{
     width: 100%;
   }
+}
 }
