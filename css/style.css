@@ -146,9 +146,11 @@ header .navbar {
   position: relative;
   z-index: 1;
 }
-{
-  @media screen and (max-width: 1024px) 
+
+  @media screen and (max-width: 900px) {
+    
   }
+  
 
 .hero-section .section-content {
   display: flex;
@@ -225,9 +227,11 @@ header .navbar {
   max-width: 600px;
   margin-right: 30px;
 }
-{
-  @media screen and (max-width: 1024px) 
+
+  @media screen and (max-width: 900px) {
+
   }
+  
 
 .about-section {
   padding: 120px 0;
@@ -245,6 +249,10 @@ header .navbar {
 .about-section {
   padding: 50px 0 100px;
   background: rgb(252, 249, 249);
+}
+
+@media screen and (max-width: 900px) {
+
 }
 
 .bag-section {
@@ -297,13 +305,16 @@ p {
   font-weight: 300;
   font-style: normal;
 }
-.contact-section {
-  padding: 50px 0 100px;
-  background: rgb(252, 249, 249);
-}
-{
-  @media screen and (max-width: 1024px) 
+
+
+  @media screen and (max-width: 900px) {
+
   }
+ .contact-section {
+    padding: 50px 0 100px;
+    background: rgb(252, 249, 249);
+  }
+  
 input, textarea {
   padding: 15px;
   border: 1px solid #ccc;
@@ -354,9 +365,11 @@ label {
 }
 
 
-{
-@media screen and (max-width: 1024px) 
+
+@media screen and (max-width: 900px) {
+  
 }
+
 
 
 .testimonial-section {
@@ -403,7 +416,7 @@ label {
   transform: scale(1.50);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .bag-section .bag-list {
     gap: 60px;
   }
@@ -425,7 +438,7 @@ body.show-mobile-menu header::before {
   background: rgba(0, 0, 0, 0.2);
 }
 }
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
   .bag-section .bag-list {
     gap: 60px;
     
@@ -437,7 +450,7 @@ body.show-mobile-menu header::before {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
 
 
 .navbar :where(#bag-close-button, #bag-open-button) {
@@ -489,6 +502,8 @@ body.show-mobile-menu header::before {
 .bag-section .bag-list .bag-item .bag-image {
   max-width: 200px;
  }
+
+ @media screen and (max-width: 900px) {
  
 
   aside, section,article{
